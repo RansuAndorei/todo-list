@@ -1,5 +1,8 @@
 import Login from "@/components/Login/Login";
+import { withoutAuthUser } from "@/utils/functions";
 
-export default function Page() {
+export default async function Page() {
+  await withoutAuthUser();
+
   return <Login />;
 }

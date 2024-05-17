@@ -55,7 +55,7 @@ const Login = () => {
         message: "Sign in successful.",
         color: "green",
       });
-      router.push("/todo-list");
+      router.push("/todo");
     } catch (e) {
       notifications.show({
         message: "Something went wrong. Please try again later.",

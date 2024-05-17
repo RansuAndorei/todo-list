@@ -1,6 +1,6 @@
 "use client";
 
-import { deleteTodo, fetchTodo, updateTodo } from "@/app/todo-list/actions";
+import { deleteTodo, fetchTodo, updateTodo } from "@/app/todo/actions";
 import { Alert, LoadingOverlay, Paper, Stack } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import { User } from "@supabase/auth-helpers-nextjs";

@@ -27,7 +27,7 @@ export default async function Header() {
               Home
             </a>
             {user && (
-              <a href="/todo-list" className={classes.link}>
+              <a href="/todo" className={classes.link}>
                 Todo List
               </a>
             )}
